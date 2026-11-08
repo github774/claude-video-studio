@@ -59,7 +59,7 @@ see pacing. Report notes with timestamps.
 | brag, brag-slim | `/plugin install brag@claude-video-studio` | MIT (latent-spaces/brag) |
 | HyperFrames | `/plugin install hyperframes@claude-video-studio` | Apache-2.0 (heygen-com/hyperframes) |
 | watch | `/plugin install watch@claude-video-studio` | MIT (bradautomates/claude-video) |
-| lemo-opuscar | `/plugin install lemo-opuscar@claude-video-studio` (or upstream: `claude plugin marketplace add lemomo-ai/lemo-opuscar` + `claude plugin install lemo-opuscar@lemolab`) | MIT code, CC BY 4.0 media (lemomo-ai/lemo-opuscar) |
+| lemo-opuscar | `/plugin install lemo-opuscar@claude-video-studio`, or let the director install it on first use | MIT code, CC BY 4.0 media (lemomo-ai/lemo-opuscar) |
 | onetake | `scripts/install-upstream.sh onetake` (clones feitangyuan/onetake into `~/.claude/skills`) | PolyForm Noncommercial 1.0.0: free for noncommercial use only |
 | Remotion skills | `npx skills add remotion-dev/skills` or `scripts/install-upstream.sh remotion` | see remotion-dev/skills |
 | collage-broll-explainers | Install from its original source (needs MaxFusion MCP). Not redistributed here: no license was published with it. | unpublished |

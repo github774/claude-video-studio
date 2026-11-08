@@ -57,9 +57,23 @@ matches better than the table; read its description and prefer it for its niche.
 
 Full decision notes and chaining recipes: `references/pipelines.md`.
 
-**If the best specialist isn't installed**, say which one would do it best and give its install
-command (see `references/pipelines.md#install`), then offer the best installed fallback. Never
-silently downgrade.
+**If the best specialist isn't installed, install it.** Tell the user in one line what you're
+installing and its license, then run:
+
+```bash
+bash "<skill base directory>/scripts/ensure-specialist.sh" <name>
+```
+
+`<name>` is one of `brag-slim`, `brag`, `lemo-opuscar`, `hyperframes`, `watch`, `onetake`,
+`remotion`. The script installs over HTTPS (no GitHub SSH key needed): plugins through this
+marketplace, with a plain skill copy as fallback, and skill-only upstreams straight from their
+repos. Its last lines are `SKILL=<path>`. A freshly installed skill only appears in the skills
+list in new sessions, so **for this session, Read that SKILL.md and follow it exactly**,
+treating its folder as the skill's base directory. Mention that it will load by name next time.
+
+If the script exits non-zero (no network, or `collage-broll-explainers`, which has no public
+source), say so, give the manual route from `references/pipelines.md#install`, and offer the
+best installed fallback. Never silently downgrade.
 
 ## 3. Hand off and chain
 

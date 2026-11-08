@@ -13,22 +13,35 @@
     },
     {
       "name": "brag",
-      "source": { "source": "github", "repo": "latent-spaces/brag" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/latent-spaces/brag.git"
+      },
       "description": "Upstream (MIT, Shunit Haviv Hakimi): turn a project or URL into a launch video. Provides /brag and /brag-slim."
     },
     {
       "name": "hyperframes",
-      "source": { "source": "github", "repo": "heygen-com/hyperframes" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heygen-com/hyperframes.git"
+      },
       "description": "Upstream (Apache-2.0, HeyGen): write HTML, render video. Compositions, GSAP, captions, voiceovers."
     },
     {
       "name": "lemo-opuscar",
-      "source": { "source": "git-subdir", "url": "lemomo-ai/lemo-opuscar", "path": "plugin" },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar.git",
+        "path": "plugin"
+      },
       "description": "Upstream (MIT code, CC BY 4.0 media, Lemomo): 66 film styles made in code with a director workflow, plus edit & documentary styles."
     },
     {
       "name": "watch",
-      "source": { "source": "github", "repo": "bradautomates/claude-video" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bradautomates/claude-video.git"
+      },
       "description": "Upstream (MIT, bradautomates): let Claude watch a video via timestamped frames and transcripts."
     }
   ]
