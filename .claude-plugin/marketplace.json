@@ -22,6 +22,11 @@
       "description": "Upstream (Apache-2.0, HeyGen): write HTML, render video. Compositions, GSAP, captions, voiceovers."
     },
     {
+      "name": "lemo-opuscar",
+      "source": { "source": "git-subdir", "url": "lemomo-ai/lemo-opuscar", "path": "plugin" },
+      "description": "Upstream (MIT code, CC BY 4.0 media, Lemomo): 66 film styles made in code with a director workflow, plus edit & documentary styles."
+    },
+    {
       "name": "watch",
       "source": { "source": "github", "repo": "bradautomates/claude-video" },
       "description": "Upstream (MIT, bradautomates): let Claude watch a video via timestamped frames and transcripts."

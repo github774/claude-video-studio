@@ -3,8 +3,8 @@ name: video-director
 description: >-
   Front door for ANY video request: making, editing, cutting, captioning, reframing, dubbing,
   B-roll, launch videos, product promos, explainers, motion graphics, or reviewing a video. Picks
-  the best specialist (brag / brag-slim, onetake, collage-broll-explainers, HyperFrames, Remotion,
-  watch, or the local video-tools MCP), hands the job to it unchanged, chains specialists when a
+  the best specialist (brag / brag-slim, onetake, collage-broll-explainers, lemo-opuscar,
+  HyperFrames, Remotion, watch, or the local video-tools MCP), hands the job to it unchanged, chains specialists when a
   job needs several, and runs one QA loop on every deliverable. Use when the user says "make a
   video", "edit this video", "cut this down", "add captions", "make it vertical", "launch video",
   "promo", "b-roll", "explainer", "turn this into a short", or names more than one video tool.
@@ -45,6 +45,7 @@ source is and what the output must feel like**:
 | Launch video for the project in this repo, or for a website URL | `brag:brag-slim` (or `brag:brag` if the user wants HyperFrames) | Reads the code/site itself, writes the share copy |
 | 10-60 s product / skill / app motion video: kinetic type, real UI rebuilt in HTML, a hand causing every reaction, narrated feature demo, other-language versions | `onetake` | Measured motion library, real motion blur, synthesized SFX, slideshow oracle |
 | One voiceover line or abstract idea turned into an editorial halftone paper-collage B-roll clip | `collage-broll-explainers` | Three-gate metaphor → still → animation flow (needs MaxFusion MCP) |
+| A short film, explainer or promo in a strong art style (oil painting, ukiyo-e, watercolor, satellite briefing, product teardown, metro map, chalkboard, ...), an evidence/documentary film from real material, or "help me pick a style" | `lemo-opuscar` | 66 code-rendered styles with demo films, its own director flow, original score and narration, no video model |
 | HTML-authored composition, captions, voiceover, audio-reactive visuals, GSAP | `hyperframes` | HeyGen's renderer and skill set |
 | React / data-driven / templated video, batch renders from data | Remotion skills (`remotion-best-practices`, `remotion-create`, `remotion-render`, ...) | Code-first video in React |
 | Edit real footage: trim, assemble, jump-cut pauses, captions, music bed, reframe, loudness, platform export | `video-edit` (this plugin) + `video-tools` MCP | Deterministic ffmpeg, verified output |

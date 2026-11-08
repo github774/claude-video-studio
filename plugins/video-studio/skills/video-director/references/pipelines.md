@@ -13,6 +13,15 @@ screenshots, so the result is crisp at 4K and every motion is designed.
 footage (cut with `video-edit`) or a `onetake` narrated cut. For each abstract line that needs
 a visual, a `collage-broll-explainers` clip. Join with `video-tools`.
 
+**A film whose look IS the point** (a painted, printed, drawn or diagrammatic style), or an
+evidence film built from real documents, scans or data: `lemo-opuscar`. It has its own
+treatment → production → delivery flow and one round of questions; let it run that flow, then
+use `video-tools` only for platform exports and `video-qa`. Its skill says it is not for plain
+editing of existing files; send those to `video-edit`.
+
+**Collage B-roll vs lemo-opuscar.** One ~5 s voiceover line as a paper-collage insert →
+`collage-broll-explainers`. A whole film in one consistent style → `lemo-opuscar`.
+
 **Lots of variants from data** (per-customer, per-locale, per-stat). Remotion.
 
 **Footage already exists.** `video-edit` first. Generate nothing until the cut works.
@@ -50,6 +59,7 @@ see pacing. Report notes with timestamps.
 | brag, brag-slim | `/plugin install brag@claude-video-studio` | MIT (latent-spaces/brag) |
 | HyperFrames | `/plugin install hyperframes@claude-video-studio` | Apache-2.0 (heygen-com/hyperframes) |
 | watch | `/plugin install watch@claude-video-studio` | MIT (bradautomates/claude-video) |
+| lemo-opuscar | `/plugin install lemo-opuscar@claude-video-studio` (or upstream: `claude plugin marketplace add lemomo-ai/lemo-opuscar` + `claude plugin install lemo-opuscar@lemolab`) | MIT code, CC BY 4.0 media (lemomo-ai/lemo-opuscar) |
 | onetake | `scripts/install-upstream.sh onetake` (clones feitangyuan/onetake into `~/.claude/skills`) | PolyForm Noncommercial 1.0.0: free for noncommercial use only |
 | Remotion skills | `npx skills add remotion-dev/skills` or `scripts/install-upstream.sh remotion` | see remotion-dev/skills |
 | collage-broll-explainers | Install from its original source (needs MaxFusion MCP). Not redistributed here: no license was published with it. | unpublished |

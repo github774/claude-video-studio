@@ -32,6 +32,7 @@ Then add the specialists you want (each from its own repo, under its own license
 /plugin install brag@claude-video-studio         # launch videos from a repo or URL (MIT)
 /plugin install hyperframes@claude-video-studio  # HTML -> video by HeyGen (Apache-2.0)
 /plugin install watch@claude-video-studio        # let Claude watch videos (MIT)
+/plugin install lemo-opuscar@claude-video-studio # 66 film styles made in code, by Lemomo (MIT / CC BY 4.0)
 ```
 
 Skill-only upstreams:
@@ -52,6 +53,7 @@ Just ask. The director loads on any video request:
 - "Make a 20-second launch video for this repo" → `brag-slim`
 - "Make a product demo of these three screens, Apple-style, with voice-over" → `onetake`
 - "Turn 'attention is the new currency' into a collage B-roll shot" → `collage-broll-explainers`
+- "Make a 60-second explainer about tides in ukiyo-e style" → `lemo-opuscar`
 - "Cut the pauses out of interview.mov, add captions and make a 9:16 short" → `video-edit`
 - "Is this ready for YouTube?" → `video-qa`
 
