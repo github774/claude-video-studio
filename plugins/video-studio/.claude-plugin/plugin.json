@@ -1,0 +1,13 @@
+{
+  "name": "video-studio",
+  "description": "One front door for video work in Claude: routes each request to the best specialist skill (brag, onetake, collage B-roll, HyperFrames, Remotion), edits real footage through a local ffmpeg MCP server, and runs the same QA loop on every deliverable.",
+  "version": "0.1.0",
+  "author": {
+    "name": "github774",
+    "url": "https://github.com/github774"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/github774/claude-video-studio",
+  "repository": "https://github.com/github774/claude-video-studio",
+  "keywords": ["video", "video-editing", "ffmpeg", "mcp", "skills", "launch-video", "captions", "b-roll"]
+}

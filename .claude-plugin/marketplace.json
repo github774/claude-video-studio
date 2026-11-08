@@ -1,0 +1,30 @@
+{
+  "name": "claude-video-studio",
+  "description": "The video toolkit for Claude: a routing director, a local ffmpeg editing MCP, a shared QA loop, plus the best open-source video plugins installed from their own upstream repos.",
+  "owner": {
+    "name": "github774",
+    "url": "https://github.com/github774"
+  },
+  "plugins": [
+    {
+      "name": "video-studio",
+      "source": "./plugins/video-studio",
+      "description": "Director skill + ffmpeg editing MCP (cut, jump-cut, captions, music ducking, reframe, loudness, platform export) + QA loop."
+    },
+    {
+      "name": "brag",
+      "source": { "source": "github", "repo": "latent-spaces/brag" },
+      "description": "Upstream (MIT, Shunit Haviv Hakimi): turn a project or URL into a launch video. Provides /brag and /brag-slim."
+    },
+    {
+      "name": "hyperframes",
+      "source": { "source": "github", "repo": "heygen-com/hyperframes" },
+      "description": "Upstream (Apache-2.0, HeyGen): write HTML, render video. Compositions, GSAP, captions, voiceovers."
+    },
+    {
+      "name": "watch",
+      "source": { "source": "github", "repo": "bradautomates/claude-video" },
+      "description": "Upstream (MIT, bradautomates): let Claude watch a video via timestamped frames and transcripts."
+    }
+  ]
+}

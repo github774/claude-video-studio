@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "video-tools": {
+      "command": "python3",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp/video_tools.py"]
+    }
+  }
+}
